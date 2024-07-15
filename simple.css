@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    color: blue;
+
+
+}
+
+
+.z{
+    position:absolute;
+    color: blue;
+    z-index: 2;
+}
+.z1{
+    position: absolute;
+    height: 500px;
+    width: 1000px;
+    left:200px;
+    z-index: 1;
+}
+.deep{
+    border: 3px solid red;
+    height: 100px;
+    width: 500px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.d1
+{ 
+    border: 3px solid red;
+    height: 100px;
+    width: 500px;
+    overflow:scroll;
+    margin-top: 20px;
+    
+}
+.o1{
+    height: 300px;
+    width: 400px;
+    float:right;
+}
+.p1{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 3px solid black;
+}
+.p1:link{
+    background-color: red; /*touch the link change the color */
+}
+.p2{
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    border: 3px;
+    margin-top: 20px;
+}
+.p2:hover{
+    background-color: green;
+
+}
+
+.A1:visited
+{
+    color: rgb(0, 255, 85);
+    
+    
+}
+.p4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 3px;
+    margin-top: 20px;
+}
+.C1{
+    color: black;
+    background-color: aliceblue;
+}
+.C1::selection{
+    color:red;
+    background-color: yellow;
+}
